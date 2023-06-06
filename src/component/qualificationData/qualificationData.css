@@ -61,55 +61,45 @@
   background-color: var(--text-color);
   border-radius: 12px;
 }
-.qualification__line{
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color: var(--text-color);
-    transform: translate(6px, -7px);
+.qualification__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--text-color);
+  transform: translate(6px, -7px);
 }
 /* ==========Brackpoint============ */
 @media screen and (max-width: 992px) {
-    body {
-      background: pink;
-    }
-    .services__container {
-      grid-template-columns: repeat(3, 219px);
-    }
+  .services__container {
+    grid-template-columns: repeat(3, 219px);
   }
-  
-  @media screen and (max-width: 768px) {
-    body {
-      background: yellowgreen;
-    }
-    .services__container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .services__content{
-      padding: 3.5rem  0.5rem 1.25rem 1.5rem;
-    }
-    .service__icon{
-      font-size: 1.5rem;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  @media screen and (max-width: 576px) {
-    body {
-      background: red;
-    }
-    .services__modal-content{
-      padding: 4.5rem 1.5rem 2.5rem;
-    }
-    .services__modal-description{
-      padding: 0;
-    }
+  .services__content {
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
   }
-  @media screen and (max-width: 350px) {
-    .services__container{
-      grid-template-columns: max-content;
-    }
-    .services__content{
-      padding-right: 6rem;
-    }
+  .service__icon {
+    font-size: 1.5rem;
   }
-  
+}
+
+@media screen and (max-width: 576px) {
+  .services__modal-content {
+    padding: 4.5rem 1.5rem 2.5rem;
+  }
+  .services__modal-description {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .services__container {
+    grid-template-columns: max-content;
+  }
+  .services__content {
+    padding-right: 6rem;
+  }
+}

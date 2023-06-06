@@ -41,7 +41,6 @@
 
 .contact__icons{
   margin-right: var(--mb-0-25);
-  color: green;
 }
 @media screen and (max-width: 768px) {
     .about__container{
