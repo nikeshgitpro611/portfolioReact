@@ -7,6 +7,7 @@ import Skills from "./component/skills/Skills";
 import QualificationData from './component/qualificationData/QualificationData'
 import Teatimonial from "./component/testimonial/Teatimonial";
 import Contact from "./component/contact/Contact";
+import Scrollup from "./component/scrollup/Scrollup";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Teatimonial />
         <Contact />
       </main>
+      <Scrollup />
     </div>
   );
 }
